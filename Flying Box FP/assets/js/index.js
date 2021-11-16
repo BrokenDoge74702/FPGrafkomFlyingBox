@@ -63,15 +63,7 @@ function init() {
     var planeMaterial = new THREE.MeshLambertMaterial(
         {color: "#000000"}
     );
-    plane = new THREE.Mesh(
-        new THREE.PlaneBufferGeometry(
-            fieldWidth,
-            fieldHeight,
-            QualityPlane,
-            QualityPlane
-        ),
-        planeMaterial
-    );
+    plane = new THREE.Mesh(new THREE.PlaneBufferGeometry(fieldWidth, fieldHeight, QualityPlane, QualityPlane),planeMaterial);
     scene.add(plane);
 }
 
