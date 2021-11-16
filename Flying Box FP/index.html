@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flying Box 3D</title>
+    <script src="assets/js/three.min.js"></script>
+    <script src="assets/js/THREEx.FullScreen.js"></script>
+    <script src="assets/js/THREEx.WindowResize.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="text-box">
+        <center>
+            <div class="heading">Flying Box 3D</div>
+        </center>
+        <div class="button-wrapper">
+            <div class="button" onclick="style.display = 'none';generate();" id="start">START</div>
+        </div>
+    </div>
+    <div class="gameover-container">
+        <div id="gameover"></div>
+    </div>
+    <div id="ThreeJS"></div>
+    <audio src="sound/explode.mp3" preload="auto" id="explode_sound"></audio>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
