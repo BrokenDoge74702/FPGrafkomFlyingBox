@@ -24,4 +24,5 @@ https://flyingbox.vercel.app/
 - Added `How-To-Play` Button
 - Added game Obstacles
 - Added keyListener(Spacebar)
+- Removed unnecessary assets
 
