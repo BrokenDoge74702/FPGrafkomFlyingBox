@@ -22,3 +22,4 @@ https://flyingbox.vercel.app/
 - Added `How-To-Play` Button
 - Added game Obstacles
 - Added keyListener(Spacebar)
+- Changed HTML Background From Red to Black
