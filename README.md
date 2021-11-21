@@ -6,16 +6,16 @@
 3. Refaldyka Galuh  P  - 05111940000209      
 ## Link 
 https://flyingbox.vercel.app/
-## Changelogs
-# v0.1 
+# Changelogs
+## v0.1 
 - Added MainMenu
 - Added PlayerGeometry
 - Added Camera 
 - Added Light
 - Added GameplaySong
-# v0.2
+## v0.2
 - Added Plane(lantai)
-# v1.0 
+## v1.0 
 - Changed Plane(lantai) to Plane(background)
 - Changed GameplaySong
 - Changed Light to Directional Light
