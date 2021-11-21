@@ -5,7 +5,7 @@
 2. Andymas Narendra B  - 05111940000192
 3. Refaldyka Galuh  P  - 05111940000209      
 ## Demo
-- [Demo](https://github.com/BrokenDoge74702/FPGrafkomFlyingBox/blob/main/FlyingBoxDemo.gif)
+![Demo](https://github.com/BrokenDoge74702/FPGrafkomFlyingBox/blob/main/FlyingBoxDemo.gif)
 ## Link 
 https://flyingbox.vercel.app/
 # Changelogs
