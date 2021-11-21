@@ -16,10 +16,12 @@ https://flyingbox.vercel.app/
 ## v0.2
 - Added Plane(lantai)
 ## v1.0 
+- Changed HTML Background From Red to Black
+- Changed Player Geometry Color From Green to Red
 - Changed Plane(lantai) to Plane(background)
 - Changed GameplaySong
 - Changed Light to Directional Light
 - Added `How-To-Play` Button
 - Added game Obstacles
 - Added keyListener(Spacebar)
-- Changed HTML Background From Red to Black
+
