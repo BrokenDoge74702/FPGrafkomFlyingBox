@@ -28,4 +28,5 @@ https://flyingbox.vercel.app/
 - Added game Obstacles
 - Added keyListener(Spacebar)
 - Removed unnecessary assets
-
+## v1.1 (Playable)
+- Added Scoring
