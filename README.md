@@ -30,3 +30,6 @@ https://flyingbox.vercel.app/
 - Removed unnecessary assets
 ## v1.1 (Playable)
 - Added Scoring
+## v1.5
+- Added Texture for playergeometry
+- Added `Restart` Button
