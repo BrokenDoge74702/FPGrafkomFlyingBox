@@ -1,11 +1,13 @@
-# FPGrafkomD
+# Flying Box 3D (FP GRAFKOM D)
 # Kelompok 10
 ### Nama Anggota  
 1. Daffa Tristan Firdaus - 0511194000006
 2. Andymas Narendra B  - 05111940000192
 3. Refaldyka Galuh  P  - 05111940000209      
-## Demo
+## Demo v1.1
 ![Demo](https://github.com/BrokenDoge74702/FPGrafkomFlyingBox/blob/main/FlyingBoxDemo.gif)
+## Demo Final (v2.0)
+![DemoV2](https://github.com/BrokenDoge74702/FPGrafkomFlyingBox/blob/main/FlyingBoxDemoV.2.gif)
 ## Link 
 https://flyingbox.vercel.app/
 # Changelogs
