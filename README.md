@@ -4,7 +4,7 @@
 1. Daffa Tristan Firdaus - 0511194000006
 2. Andymas Narendra B  - 05111940000192
 3. Refaldyka Galuh  P  - 05111940000209      
-## Demo v1.1
+## Demo Old (v1.1)
 ![Demo](https://github.com/BrokenDoge74702/FPGrafkomFlyingBox/blob/main/FlyingBoxDemo.gif)
 ## Demo Final (v2.0)
 ![DemoV2](https://github.com/BrokenDoge74702/FPGrafkomFlyingBox/blob/main/FlyingBoxDemoV.2.gif)
