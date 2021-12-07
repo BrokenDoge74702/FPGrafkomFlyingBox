@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flying Box 3D</title>
+    <script src="assets/js/three.min.js"></script>
+    <script src="assets/js/musichowtoplay.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="text-box">
+        <center>
+            <div class="heading">Flying Box 3D</div>
+        </center>
+        <div class="button-wrapper">
+            <div class="button" onclick="style.display = 'none';" id="start">START</div>
+            <button class="button2" onclick="window.location.href='./howtoplay.html'" id="howtoplay">HOW-TO-PLAY</button>
+            <div class="button3" id="restart">RESTART</div>
+        </div>
+    </div>
+    <div class="score-container">
+        <div id="score">SCORE : 0</div>
+    </div>
+    <div id="ThreeJS"></div>
+    <audio src="./assets/music/sound/fall.wav" preload="auto" id="fall_sound"></audio>
+    <audio src="./assets/music/sound/jump.wav" preload="auto" id="jump_sound"></audio>
+    <audio src="./assets/music/mainmenu.mp3" preload="auto" id="playrestart"></audio>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

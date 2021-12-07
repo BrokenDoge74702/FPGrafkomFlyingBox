@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Flying Box 3D</title>
+    <script src="assets/js/three.min.js"></script>
+    <script src="assets/js/musichowtoplay.js"></script>
+    <link rel="stylesheet" href="./assets/css/howtoplay.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script type="x-shader/x-vertex" id="vertexshader">
+
+  attribute float size;
+  attribute vec3 customColor;
+  varying vec3 vColor;
+
+  void main() {
+
+    vColor = customColor;
+    vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+    gl_PointSize = size * ( 300.0 / -mvPosition.z );
+    gl_Position = projectionMatrix * mvPosition;
+
+  }
+
+</script>
+<script type="x-shader/x-fragment" id="fragmentshader">
+
+ uniform vec3 color;
+ uniform sampler2D pointTexture;
+
+ varying vec3 vColor;
+
+ void main() {
+
+   gl_FragColor = vec4( color * vColor, 1.0 );
+   gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+
+ }
+</script>
+
+<div id="magic"></div>
+<!-- partial -->
+<body>
+  <div class="text-box">
+      <center>
+          <div class="heading">Flying Box 3D</div>
+      </center>
+      <div class="button-wrapper">
+          <button class="button2" onclick="window.location.href='/index.html'" id="gotogame">GO-TO-GAME</button>
+      </div>
+  </div>
+  
+  <audio autoplay src="./assets/music/howtoplay.mp3" preload="auto" id="howtoplay"></audio>
+  <script src="assets/js/volumeaudio.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js'></script>
+  <script src="./assets/js/howtoplay.js"></script>
+
+</body>
+</html>
