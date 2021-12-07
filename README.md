@@ -31,5 +31,16 @@ https://flyingbox.vercel.app/
 ## v1.1 (Playable)
 - Added Scoring
 ## v1.5
-- Added Texture for playergeometry
-- Added `Restart` Button
+- Added Texture For playergeometry
+- Added `Restart` Button & Its Function
+## v2.0 
+- Added Texture For obstacle
+- Added Texture For PlaneGeometry (Background)
+- Added Sound When `Jumping`
+- Added Sound When `Crash` to Obstacle
+- Added Function To Stop Music When Player `Crash`
+- Added Function To Start Music Again When Player Click `Restart` Button
+- Added Function To Loop Music When Ended
+- Added `How-To-Play.html` Page 
+- Added Music on `How-To-Play.html` Page
+- Added Function To Loop Music on `How-To-Play.html` Page
