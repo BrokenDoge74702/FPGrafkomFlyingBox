@@ -1,0 +1,114 @@
+body {
+    background-color:black;
+    overflow: hidden;
+}
+
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    top: 50px;
+    background-color: violet;
+}
+
+
+
+.text-box {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 7px;
+    word-spacing: 12px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.button {
+    margin: 0;
+    top: 50%;
+    right: 45%;
+    position: absolute;
+    color: rgb(238, 238, 238);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-spacing: normal;
+    letter-spacing: 5px;
+    border: 1px solid white;
+    background: darkgreen;
+    cursor: pointer;
+}
+.button2 {
+    margin: 0;
+    right: 44%;
+    bottom:2%;
+    position: absolute;
+    color: rgb(238, 238, 238);
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-spacing: normal;
+    letter-spacing: 5px;
+    border: 1px solid white;
+    background: black;
+    cursor: pointer;
+}
+
+.button3 {
+    margin: 0;
+    left: 6.5%;
+    bottom:2%;
+    position: absolute;
+    color: rgb(238, 238, 238);
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-spacing: normal;
+    letter-spacing: 5px;
+    border: 1px solid white;
+    background: red;
+    cursor: pointer;
+}
+.score-container {
+    margin: 0;
+    top:7%;
+    left:7%;
+    position: absolute;
+    color: rgb(238, 238, 238);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-spacing: normal;
+    letter-spacing: 5px;
+    border: 1px solid white;
+    background: black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row; */
+}
