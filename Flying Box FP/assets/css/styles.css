@@ -92,8 +92,8 @@ canvas {
 }
 .score-container {
     margin: 0;
-    top:7%;
-    left:7%;
+    top: 7%;
+    left: 0%;
     position: absolute;
     color: rgb(238, 238, 238);
     display: inline-block;
