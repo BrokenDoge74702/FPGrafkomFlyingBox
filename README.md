@@ -1,5 +1,4 @@
 # Flying Box 3D (FP GRAFKOM D)
-![Logo](https://github.com/BrokenDoge74702/FPGrafkomFlyingBox/blob/main/logo.png)
 # Kelompok 10
 ### Nama Anggota  
 1. Daffa Tristan Firdaus - 0511194000006
