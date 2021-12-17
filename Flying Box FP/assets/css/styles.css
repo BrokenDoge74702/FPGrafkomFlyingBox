@@ -55,8 +55,8 @@ canvas {
 }
 .button2 {
     margin: 0;
-    right: 45%;
-    bottom:2%;
+    right: 0%;
+    top: 1%;
     position: absolute;
     color: rgb(238, 238, 238);
     display: inline-block;
@@ -74,8 +74,8 @@ canvas {
 
 .button3 {
     margin: 0;
-    left: 6.5%;
-    bottom:2%;
+    left: 0%;
+    top: 1%;
     position: absolute;
     color: rgb(238, 238, 238);
     display: inline-block;
@@ -87,7 +87,7 @@ canvas {
     word-spacing: normal;
     letter-spacing: 5px;
     border: 1px solid white;
-    background: red;
+    background: #8b0000;
     cursor: pointer;
 }
 .score-container {
