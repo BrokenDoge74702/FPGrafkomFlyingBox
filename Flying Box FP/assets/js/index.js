@@ -86,7 +86,7 @@ function init(){
 	var WIDTH = window.innerWidth;
 	var HEIGHT = window.innerHeight;
 	renderer = new THREE.WebGLRenderer();
-	renderer.setSize(WIDTH*0.85, HEIGHT*0.85);
+	renderer.setSize(WIDTH, HEIGHT);
     // setup PerspectiveCamera
 	scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera(50,WIDTH/HEIGHT,0.1,10000);
